@@ -3,7 +3,7 @@
 <head>  
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Homepage of Zhongjie Zeng</title>  
+  <title>Zhongjie Zeng</title>  
   <style>  
     /* 样式代码，可根据需要添加 */  
     body {  
@@ -22,11 +22,14 @@
     }  
     .photo {  
       display: block;  
-      margin-bottom: 20px;  
+      width: 100%; /* 设置照片宽度为页面宽度 */  
+      height: auto; /* 设置照片高度自动，以保持比例 */  
+      border-radius: 50%;  
+      overflow: hidden; /* 可选，用于裁剪照片 */  
     }  
     .photo img {  
-      width: 100%;  
-      border-radius: 50%;  
+      width: 20%; /* 设置图片宽度为容器宽度 */  
+      height: auto; /* 按比例缩放照片 */  
     }  
     .profile, .resume, .achievements {  
       margin-bottom: 30px;  
@@ -38,7 +41,7 @@
     .resume li, .achievements li {  
       margin-bottom: 10px;  
     }  
-  </style>  
+  </style>
 </head>  
 <body>  
   <div class="container">  
