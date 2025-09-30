@@ -1,116 +1,221 @@
-<!DOCTYPE html>  
-<html lang="en">  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Zhongjie Zeng 曾仲杰</title>  
-  <style>  
-    /* 样式代码，可根据需要添加 */  
-    body {  
-      font-family: Arial, sans-serif;  
-      margin: 0;  
-      padding: 0;  
-    }  
-    .container {  
-      max-width: 800px;  
-      margin: 0 auto;  
-      padding: 20px;  
-    }  
-    h1, h2, p {  
-      margin: 0;  
-      padding: 10px;  
-    }  
-    .photo {  
-      display: block;  
-      width: 30%; /* 设置照片宽度为页面宽度 */  
-      height: auto; /* 设置照片高度自动，以保持比例 */  
-    }  
-    .photo img {  
-      width: 100%; /* 设置图片宽度为容器宽度 */  
-      height: auto; /* 按比例缩放照片 */  
-    }  
-    .profile, .resume, .achievements {  
-      margin-bottom: 30px;  
-    }  
-    .resume ul, .achievements ul {  
-      list-style-type: none;  
-      padding: 0;  
-    }  
-    .resume li, .achievements li {  
-      margin-bottom: 10px;  
-    }  
-  </style>
-</head>  
-<body>  
-  <div class="container">  
-    <div class="photo">  
-      <img src="./profile.jpg" alt="个人照片">  
-    </div>  
-    <h1 class="profile">Zhongjie Zeng 曾仲杰 </h1>  
-    <p>
-    2013 年获广东工业大学硕士学位，曾负责千万级 DAU 产品在线推荐系统、计算广告系统以及内容风控算法研发。业务涉及信息流、短视频和社交应用。
-    目前在广东工业大学信息工程学院攻读学术博士，同时担任温氏集团算法技术架构和管理工作，负责数据产品研发，如智能化生产风险管理、生产经营智能决策  
-    </p>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhongjie Zeng 曾仲杰 - Personal Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* 基础样式重置与字体设置 */
+        body {
+            font-family: 'Noto Sans SC', 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* 柔和的背景色 */
+            color: #333; /* 主文本颜色 */
+            line-height: 1.6;
+        }
 
-    <p>
-      I obtained a master's degree from Guangdong University of Technology in 2013. 
-      I have been responsible for the research and development of online recommendation systems, computational advertising systems, 
-      and content risk control algorithms for products with a DAU of over 10 million, with business scope covering information feeds, short videos, and social applications. 
-      Currently, I am an academic doctorate at the School of Information Engineering, Guangdong University of Technology, 
-      and concurrently hold a position in algorithm technology architecture and management at Wens Group. I am in charge of data product research and development,
-      such as intelligent production risk management and intelligent decision-making for production and operation.
-    </p>
-    
-    <h2 class="resume">教育背景</h2>  
-    <ul class="resume">  
-      <li>2025~至今 广东工业大学，博士，知识工程，智能决策 </li> 
-      <li>2010~2013 广东工业大学，研究生，目标跟踪领域</li>  
-      <li>2005~2009 许昌学院，本科，目标跟踪领域</li>  
-      <!-- 其他履历条目 -->  
-    </ul>  
-    <h2 class="resume">工作背景</h2>  
-    <ul class="resume">  
-      <li>2021~至今  温氏食品集团股份有限公司，数据挖掘工程师（组长），负责数据智能产品技术研发，团队管理</li>  
-      <li>2020~2021 大宇无限，算法工程师， 短视频推荐、计算广告算法研发</li>  
-      <li>2017~2020 连尚网络，算法工程师， 短视频推荐、文学推荐、计算广告、内容风控算法研发</li>  
-      <!-- 其他履历条目 -->  
-    </ul> 
-    <h2 class="achievements">Paper</h2>  
-    <ul class="achievements">  
-      <li>Hypergraph Enhanced Knowledge Tree Prompt Learning for Next-Basket Recommendation</li>
-      <li>Knowledge-aware Multi-scale Time Series Abnormal Segment Detection</li>
-      <li>基于稀疏表示和特征选择的LK目标跟踪</li> 
-      <li>基于字符切割拼接的字段式液晶数字识别</li> 
-      <!-- 其他成果条目 -->  
-    </ul>  
-    <h2 class="achievements">Patent</h2>  
-    <ul class="achievements">  
-      <li>一种基于机器学习的猪场疾病监测预警方法及系统</li> 
-      <li>一种基于客户画像的养禽项目营销方法及营销系统</li> 
-      <li>基于小样本场景的猪场疾病风险预测方法,系统及平台</li> 
-      <li>基于层次区域结构图的毛鸡品种毛利趋势预测系统及方法</li> 
-      <li>一种毛鸡销售的毛利预测和销售规划系统的制作方法</li> 
-      <li>一种调查问卷方法,设备及存储介质</li> 
-      <li>用于标注图像样本的方法,设备及计算机可读介质</li> 
-      <!-- 其他成果条目 -->  
-    </ul> 
-    <h2 class="achievements">Awards</h2>  
-    <ul class="achievements">  
-      <li>省计学评〔2024〕8号-基于知识与数据双驱动的有组织养殖智能服务平台关键技术研究与应用
-：国际先进</li> 
-      <li>基于数据-知识双驱动的家禽智能营销：中国信通院铸基计划-2023年十大优秀案例，2024 CCF企业数字化案例 
-</li> 
-      <!-- 其他成果条目 -->  
-    </ul> 
-    
-    <h2 class="achievements">News</h2>  
-    <ul class="achievements">  
-      <li><a href="https://www.ccf.org.cn/Chapters/Student_Chapters/Meetups/2024-10-30/832541.shtml">温氏携手华农中大亮相CNCC，探讨AI赋能智慧农业</a></li> 
-      <li><a href="https://www.ccf.org.cn/Member_Activities/2023-09-13/795539.shtml">CCF华南农业大学学生分会举办“企业级机器学习应用与建设”专题论坛</a></li>
-      <li><a href="https://www.ccf.org.cn/Focus/2024-10-31/832687.shtml">2024 CCF企业数字化发展专题论坛成功举办</a></li>
-      <!-- 其他成果条目 -->  
-    </ul> 
-    
-  </div>  
-</body>  
+        /* 布局容器 */
+        .container {
+            max-width: 960px; /* 拓宽主内容区 */
+            margin: 30px auto; /* 上下留白 */
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 12px; /* 圆角容器 */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* 柔和的阴影 */
+        }
+
+        /* 头部信息布局（Flexbox） */
+        .header-content {
+            display: flex;
+            align-items: center; /* 垂直居中 */
+            gap: 40px; /* 间距 */
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+            margin-bottom: 30px;
+        }
+
+        /* 个人照片样式 */
+        .photo img {
+            width: 150px; /* 固定尺寸 */
+            height: 150px;
+            object-fit: cover; /* 确保图片覆盖且不失真 */
+            border-radius: 50%; /* 圆形照片 */
+            border: 4px solid #4a90e2; /* 品牌色边框 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 姓名和简介 */
+        h1.profile {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* 简介文本段落 */
+        .profile-text {
+            margin-top: 15px;
+            padding: 0;
+            color: #555;
+            font-size: 1.05em;
+        }
+
+        /* 内容区块标题 */
+        h2 {
+            font-size: 1.6em;
+            color: #4a90e2; /* 蓝色作为强调色 */
+            border-left: 5px solid #4a90e2;
+            padding-left: 15px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        /* 内容列表样式 */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            background-color: #f9f9f9;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            border-left: 5px solid #c8e0ff; /* 浅蓝色装饰线 */
+            transition: transform 0.2s;
+        }
+        
+        li:hover {
+            transform: translateX(5px); /* 鼠标悬停时的轻微动画效果 */
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        /* 链接样式 */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+
+        /* 特殊内容容器（如 Paper, Patent, Awards） */
+        .content-section {
+            margin-bottom: 40px;
+        }
+        
+        /* 媒体查询：适应小屏幕设备 */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column; /* 垂直堆叠 */
+                text-align: center;
+                gap: 20px;
+            }
+            .photo img {
+                width: 120px;
+                height: 120px;
+            }
+            .container {
+                margin: 15px;
+                padding: 20px;
+            }
+            h1.profile {
+                font-size: 2em;
+            }
+            h2 {
+                margin-top: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-content">
+            <div class="photo">
+                <img src="./profile.jpg" alt="个人照片">
+            </div>
+            <div class="profile-info">
+                <h1 class="profile">Zhongjie Zeng 曾仲杰</h1>
+                <p class="profile-text">
+                    2013 年获广东工业大学硕士学位，曾负责千万级 DAU 产品在线推荐系统、计算广告系统以及内容风控算法研发。业务涉及信息流、短视频和社交应用。
+                    目前在广东工业大学信息工程学院攻读学术博士，同时担任温氏集团算法技术架构和管理工作，负责数据产品研发，如智能化生产风险管理、生产经营智能决策。
+                </p>
+                <p class="profile-text">
+                    I obtained a master's degree from Guangdong University of Technology in 2013.
+                    I have been responsible for the research and development of online recommendation systems, computational advertising systems,
+                    and content risk control algorithms for products with a DAU of over 10 million, with business scope covering information feeds, short videos, and social applications.
+                    Currently, I am an academic doctorate at the School of Information Engineering, Guangdong University of Technology,
+                    and concurrently hold a position in algorithm technology architecture and management at Wens Group. I am in charge of data product research and development,
+                    such as intelligent production risk management and intelligent decision-making for production and operation.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2 class="resume-title">教育背景</h2>
+            <ul class="resume-list">
+                <li>**2025~至今** 广东工业大学，博士，知识工程，智能决策</li>
+                <li>**2010~2013** 广东工业大学，研究生，目标跟踪领域</li>
+                <li>**2005~2009** 许昌学院，本科，目标跟踪领域</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2 class="resume-title">工作背景</h2>
+            <ul class="resume-list">
+                <li>**2021~至今** 温氏食品集团股份有限公司，数据挖掘工程师（组长），负责数据智能产品技术研发，团队管理</li>
+                <li>**2020~2021** 大宇无限，算法工程师， 短视频推荐、计算广告算法研发</li>
+                <li>**2017~2020** 连尚网络，算法工程师， 短视频推荐、文学推荐、计算广告、内容风控算法研发</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Paper</h2>
+            <ul class="achievements-list">
+                <li>Hypergraph Enhanced Knowledge Tree Prompt Learning for Next-Basket Recommendation</li>
+                <li>Knowledge-aware Multi-scale Time Series Abnormal Segment Detection</li>
+                <li>基于稀疏表示和特征选择的LK目标跟踪</li>
+                <li>基于字符切割拼接的字段式液晶数字识别</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Patent</h2>
+            <ul class="achievements-list">
+                <li>一种基于机器学习的猪场疾病监测预警方法及系统</li>
+                <li>一种基于客户画像的养禽项目营销方法及营销系统</li>
+                <li>基于小样本场景的猪场疾病风险预测方法,系统及平台</li>
+                <li>基于层次区域结构图的毛鸡品种毛利趋势预测系统及方法</li>
+                <li>一种毛鸡销售的毛利预测和销售规划系统的制作方法</li>
+                <li>一种调查问卷方法,设备及存储介质</li>
+                <li>用于标注图像样本的方法,设备及计算机可读介质</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Awards</h2>
+            <ul class="achievements-list">
+                <li>**省计学评〔2024〕8号** - 基于知识与数据双驱动的有组织养殖智能服务平台关键技术研究与应用：国际先进</li>
+                <li>**中国信通院铸基计划-2023年十大优秀案例，2024 CCF企业数字化案例** - 基于数据-知识双驱动的家禽智能营销</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>News</h2>
+            <ul class="achievements-list">
+                <li><a href="https://www.ccf.org.cn/Chapters/Student_Chapters/Meetups/2024-10-30/832541.shtml" target="_blank">温氏携手华农中大亮相CNCC，探讨AI赋能智慧农业</a></li>
+                <li><a href="https://www.ccf.org.cn/Member_Activities/2023-09-13/795539.shtml" target="_blank">CCF华南农业大学学生分会举办“企业级机器学习应用与建设”专题论坛</a></li>
+                <li><a href="https://www.ccf.org.cn/Focus/2024-10-31/832687.shtml" target="_blank">2024 CCF企业数字化发展专题论坛成功举办</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
 </html>
